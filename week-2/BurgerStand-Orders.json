@@ -1,0 +1,18 @@
+{
+  "order": {
+    "_id": "99887766554433221100aaaa",
+    "customer_id": "507f1f77bcf86cd799439011", 
+    "orderDate": "2024-05-20T12:30:00Z",
+    "items": [
+      {
+        "burgerName": "The Leeloo Multipass Burger",
+        "price": 18.99
+      },
+      {
+        "burgerName": "The Zorg ZF-1 Spicy Chicken",
+        "price": 16.50
+      }
+    ],
+    "totalPrice": 35.49
+  }
+}
