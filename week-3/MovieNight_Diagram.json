@@ -1,0 +1,124 @@
+{
+  "collections": {
+    "MovieNight.MOVIE": {
+      "ns": "MovieNight.MOVIE",
+      "jsonSchema": {
+        "bsonType": "object",
+        "required": [
+          "_id",
+          "director",
+          "genre",
+          "movieName",
+          "releaseYear"
+        ],
+        "properties": {
+          "_id": {
+            "bsonType": "string"
+          },
+          "director": {
+            "bsonType": "string"
+          },
+          "genre": {
+            "bsonType": "string"
+          },
+          "movieName": {
+            "bsonType": "string"
+          },
+          "releaseYear": {
+            "bsonType": "int"
+          }
+        }
+      }
+    },
+    "MovieNight.RATING": {
+      "ns": "MovieNight.RATING",
+      "jsonSchema": {
+        "bsonType": "object",
+        "required": [
+          "_id",
+          "movieId",
+          "rating",
+          "viewerId"
+        ],
+        "properties": {
+          "_id": {
+            "bsonType": "objectId"
+          },
+          "movieId": {
+            "bsonType": "string"
+          },
+          "rating": {
+            "bsonType": "int"
+          },
+          "viewerId": {
+            "bsonType": "string"
+          }
+        }
+      }
+    },
+    "MovieNight.VIEWER": {
+      "ns": "MovieNight.VIEWER",
+      "jsonSchema": {
+        "bsonType": "object",
+        "required": [
+          "_id",
+          "firstName",
+          "lastName"
+        ],
+        "properties": {
+          "_id": {
+            "bsonType": "string"
+          },
+          "firstName": {
+            "bsonType": "string"
+          },
+          "lastName": {
+            "bsonType": "string"
+          }
+        }
+      }
+    }
+  },
+  "relationships": [
+    {
+      "id": "7aa58264-e3f8-4709-8efc-4336f9c09e3c",
+      "relationship": [
+        {
+          "ns": "MovieNight.MOVIE",
+          "cardinality": 1,
+          "fields": [
+            "_id"
+          ]
+        },
+        {
+          "ns": "MovieNight.RATING",
+          "cardinality": null,
+          "fields": [
+            "movieId"
+          ]
+        }
+      ],
+      "isInferred": false
+    },
+    {
+      "id": "d8ba9258-87a2-4495-86b9-ea648bd94bde",
+      "relationship": [
+        {
+          "ns": "MovieNight.VIEWER",
+          "cardinality": 1,
+          "fields": [
+            "_id"
+          ]
+        },
+        {
+          "ns": "MovieNight.RATING",
+          "cardinality": null,
+          "fields": [
+            "viewerId"
+          ]
+        }
+      ],
+      "isInferred": false
+    }
+  ]
+}

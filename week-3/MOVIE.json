@@ -1,0 +1,44 @@
+[
+  {
+    "_id": "1",
+    "movieName": "Inception",
+    "releaseYear": 2010,
+    "genre": "Science Fiction",
+    "director": "Christopher Nolan"
+  },
+  {
+    "_id": "2",
+    "movieName": "The Shawshank Redemption",
+    "releaseYear": 1994,
+    "genre": "Drama",
+    "director": "Frank Darabont"
+  },
+  {
+    "_id": "3",
+    "movieName": "The Godfather",
+    "releaseYear": 1972,
+    "genre": "Crime",
+    "director": "Francis Ford Coppola"
+  },
+  {
+    "_id": "4",
+    "movieName": "Pulp Fiction",
+    "releaseYear": 1994,
+    "genre": "Crime",
+    "director": "Quentin Tarantino"
+  },
+  {
+    "_id": "5",
+    "movieName": "The Dark Knight",
+    "releaseYear": 2008,
+    "genre": "Action",
+    "director": "Christopher Nolan"
+  },
+  {
+    "_id": "6",
+    "movieName": "Forrest Gump",
+    "releaseYear": 1994,
+    "genre": "Drama",
+    "director": "Robert Zemeckis"
+  }
+]

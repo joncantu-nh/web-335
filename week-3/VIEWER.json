@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "1",
+    "firstName": "Rachel",
+    "lastName": "Green"
+  },
+  {
+    "_id": "2",
+    "firstName": "Monica",
+    "lastName": "Geller"
+  },
+  {
+    "_id": "3",
+    "firstName": "Phoebe",
+    "lastName": "Buffay"
+  },
+  {
+    "_id": "4",
+    "firstName": "Joey",
+    "lastName": "Tribbiani"
+  },
+  {
+    "_id": "5",
+    "firstName": "Chandler",
+    "lastName": "Bing"
+  },
+  {
+    "_id": "6",
+    "firstName": "Ross",
+    "lastName": "Geller"
+  }
+]

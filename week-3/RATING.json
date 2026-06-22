@@ -1,0 +1,62 @@
+[
+  {
+    "movieId": "4",
+    "viewerId": "1",
+    "rating": 5
+  },
+  {
+    "movieId": "1",
+    "viewerId": "1",
+    "rating": 3
+  },
+  {
+    "movieId": "6",
+    "viewerId": "1",
+    "rating": 2
+  },
+  {
+    "movieId": "2",
+    "viewerId": "2",
+    "rating": 4
+  },
+  {
+    "movieId": "5",
+    "viewerId": "2",
+    "rating": 4
+  },
+  {
+    "movieId": "6",
+    "viewerId": "2",
+    "rating": 4
+  },
+  {
+    "movieId": "2",
+    "viewerId": "3",
+    "rating": 4
+  },
+  {
+    "movieId": "2",
+    "viewerId": "3",
+    "rating": 2
+  },
+  {
+    "movieId": "1",
+    "viewerId": "4",
+    "rating": 3
+  },
+  {
+    "movieId": "5",
+    "viewerId": "5",
+    "rating": 5
+  },
+  {
+    "movieId": "2",
+    "viewerId": "6",
+    "rating": 5
+  },
+  {
+    "movieId": "1",
+    "viewerId": "6",
+    "rating": 4
+  }
+]
