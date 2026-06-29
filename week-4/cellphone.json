@@ -1,0 +1,37 @@
+{
+  "_id": "user1001",
+  "firstName": "Jonathan",
+  "lastName": "Cantu",
+  "devices": [
+    {
+      "_id": "device2001",
+      "deviceName": "Pixel 10 Pro XL",
+      "deviceType": "Smartphone",
+      "charger_id": "charger3001"
+    },
+    {
+      "_id": "device2002",
+      "deviceName": "iPad Air",
+      "deviceType": "Tablet",
+      "charger_id": "charger3001"
+    },
+    {
+      "_id": "device2003",
+      "deviceName": "MacBook Pro M5",
+      "deviceType": "Laptop",
+      "charger_id": "charger3002"
+    }
+  ],
+  "chargers": [
+    {
+      "_id": "charger3001",
+      "chargerType": "USB-C Fast Charger",
+      "voltage": "20V"
+    },
+    {
+      "_id": "charger3002",
+      "chargerType": "USB-C Laptop Charger",
+      "voltage": "140W"
+    }
+  ]
+}
