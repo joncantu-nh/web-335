@@ -3,7 +3,7 @@
 Title: cantu_usersp1.py
 Author: Jonathan Cantu
 Date: 19 July 2026
-Description: Hands-On 5.2 - Python with MongoDB, Part II.
+Description: Exercise 7.3 (Hands-On 5.2) - Python with MongoDB, Part II.
 A Python program that connects to MongoDB database and performs various CRUD operations.
 """
 
