@@ -1,0 +1,77 @@
+  [
+    {
+      "customerId": "c1001",
+      "firstName": "Jonathan",
+      "lastName": "Cantu"
+    },
+    {
+      "customerId": "c1002",
+      "firstName": "Jennifer",
+      "lastName": "Snyder"
+    },
+    {
+      "customerId": "c1003",
+      "firstName": "Dolly",
+      "lastName": "Presley"
+    },
+    {
+      "customerId": "c1004",
+      "firstName": "Howard",
+      "lastName": "Mariner"
+    },
+    {
+      "customerId": "c1005",
+      "firstName": "Marge",
+      "lastName": "Meadow"
+    },
+    {
+      "customerId": "c1006",
+      "firstName": "Alice",
+      "lastName": "Wonderland"
+    },
+    {
+      "customerId": "c1007",
+      "firstName": "Frasier",
+      "lastName": "Crane"
+    },
+    {
+      "customerId": "c1008",
+      "firstName": "Niles",
+      "lastName": "Crane"
+    },
+    {
+      "customerId": "c1009",
+      "firstName": "Luna",
+      "lastName": "Lovegood"
+    },
+    {
+      "customerId": "c1010",
+      "firstName": "Isaac",
+      "lastName": "Clarke"
+    },
+    {
+      "customerId": "c1011",
+      "firstName": "Elena",
+      "lastName": "Rivers"
+    },
+    {
+      "customerId": "c1012",
+      "firstName": "Marcus",
+      "lastName": "Vale"
+    },
+    {
+      "customerId": "c1013",
+      "firstName": "Sophie",
+      "lastName": "Bennett"
+    },
+    {
+      "customerId": "c1014",
+      "firstName": "Daniel",
+      "lastName": "Hart"
+    },
+    {
+      "customerId": "c1015",
+      "firstName": "Rebecca",
+      "lastName": "Stone"
+    }
+  ]

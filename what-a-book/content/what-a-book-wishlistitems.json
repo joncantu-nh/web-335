@@ -1,0 +1,282 @@
+[
+  {
+    "wishlistItemId": "w1001",
+    "customerId": "c1001",
+    "bookId": "b1001"
+  },
+  {
+    "wishlistItemId": "w1002",
+    "customerId": "c1002",
+    "bookId": "b1002"
+  },
+  {
+    "wishlistItemId": "w1003",
+    "customerId": "c1003",
+    "bookId": "b1003"
+  },
+  {
+    "wishlistItemId": "w1004",
+    "customerId": "c1004",
+    "bookId": "b1004"
+  },
+  {
+    "wishlistItemId": "w1005",
+    "customerId": "c1005",
+    "bookId": "b1005"
+  },
+  {
+    "wishlistItemId": "w1006",
+    "customerId": "c1006",
+    "bookId": "b1006"
+  },
+  {
+    "wishlistItemId": "w1007",
+    "customerId": "c1007",
+    "bookId": "b1007"
+  },
+  {
+    "wishlistItemId": "w1008",
+    "customerId": "c1008",
+    "bookId": "b1008"
+  },
+  {
+    "wishlistItemId": "w1009",
+    "customerId": "c1009",
+    "bookId": "b1009"
+  },
+  {
+    "wishlistItemId": "w1010",
+    "customerId": "c1010",
+    "bookId": "b1010"
+  },
+  {
+    "wishlistItemId": "w1011",
+    "customerId": "c1011",
+    "bookId": "b1011"
+  },
+  {
+    "wishlistItemId": "w1012",
+    "customerId": "c1012",
+    "bookId": "b1012"
+  },
+  {
+    "wishlistItemId": "w1013",
+    "customerId": "c1013",
+    "bookId": "b1013"
+  },
+  {
+    "wishlistItemId": "w1014",
+    "customerId": "c1014",
+    "bookId": "b1014"
+  },
+  {
+    "wishlistItemId": "w1015",
+    "customerId": "c1015",
+    "bookId": "b1015"
+  },
+  {
+    "wishlistItemId": "w1016",
+    "customerId": "c1001",
+    "bookId": "b1016"
+  },
+  {
+    "wishlistItemId": "w1017",
+    "customerId": "c1002",
+    "bookId": "b1017"
+  },
+  {
+    "wishlistItemId": "w1018",
+    "customerId": "c1003",
+    "bookId": "b1018"
+  },
+  {
+    "wishlistItemId": "w1019",
+    "customerId": "c1004",
+    "bookId": "b1019"
+  },
+  {
+    "wishlistItemId": "w1020",
+    "customerId": "c1005",
+    "bookId": "b1020"
+  },
+  {
+    "wishlistItemId": "w1021",
+    "customerId": "c1006",
+    "bookId": "b1021"
+  },
+  {
+    "wishlistItemId": "w1022",
+    "customerId": "c1007",
+    "bookId": "b1022"
+  },
+  {
+    "wishlistItemId": "w1023",
+    "customerId": "c1008",
+    "bookId": "b1023"
+  },
+  {
+    "wishlistItemId": "w1024",
+    "customerId": "c1009",
+    "bookId": "b1024"
+  },
+  {
+    "wishlistItemId": "w1025",
+    "customerId": "c1010",
+    "bookId": "b1025"
+  },
+  {
+    "wishlistItemId": "w1026",
+    "customerId": "c1011",
+    "bookId": "b1026"
+  },
+  {
+    "wishlistItemId": "w1027",
+    "customerId": "c1012",
+    "bookId": "b1027"
+  },
+  {
+    "wishlistItemId": "w1028",
+    "customerId": "c1013",
+    "bookId": "b1028"
+  },
+  {
+    "wishlistItemId": "w1029",
+    "customerId": "c1014",
+    "bookId": "b1029"
+  },
+  {
+    "wishlistItemId": "w1030",
+    "customerId": "c1015",
+    "bookId": "b1030"
+  },
+  {
+    "wishlistItemId": "w1031",
+    "customerId": "c1001",
+    "bookId": "b1031"
+  },
+  {
+    "wishlistItemId": "w1032",
+    "customerId": "c1002",
+    "bookId": "b1032"
+  },
+  {
+    "wishlistItemId": "w1033",
+    "customerId": "c1003",
+    "bookId": "b1033"
+  },
+  {
+    "wishlistItemId": "w1034",
+    "customerId": "c1004",
+    "bookId": "b1034"
+  },
+  {
+    "wishlistItemId": "w1035",
+    "customerId": "c1005",
+    "bookId": "b1035"
+  },
+  {
+    "wishlistItemId": "w1036",
+    "customerId": "c1006",
+    "bookId": "b1036"
+  },
+  {
+    "wishlistItemId": "w1037",
+    "customerId": "c1007",
+    "bookId": "b1037"
+  },
+  {
+    "wishlistItemId": "w1038",
+    "customerId": "c1008",
+    "bookId": "b1038"
+  },
+  {
+    "wishlistItemId": "w1039",
+    "customerId": "c1009",
+    "bookId": "b1039"
+  },
+  {
+    "wishlistItemId": "w1040",
+    "customerId": "c1010",
+    "bookId": "b1040"
+  },
+  {
+    "wishlistItemId": "w1041",
+    "customerId": "c1011",
+    "bookId": "b1041"
+  },
+  {
+    "wishlistItemId": "w1042",
+    "customerId": "c1012",
+    "bookId": "b1042"
+  },
+  {
+    "wishlistItemId": "w1043",
+    "customerId": "c1013",
+    "bookId": "b1043"
+  },
+  {
+    "wishlistItemId": "w1044",
+    "customerId": "c1014",
+    "bookId": "b1044"
+  },
+  {
+    "wishlistItemId": "w1045",
+    "customerId": "c1015",
+    "bookId": "b1045"
+  },
+  {
+    "wishlistItemId": "w1046",
+    "customerId": "c1001",
+    "bookId": "b1046"
+  },
+  {
+    "wishlistItemId": "w1047",
+    "customerId": "c1002",
+    "bookId": "b1047"
+  },
+  {
+    "wishlistItemId": "w1048",
+    "customerId": "c1003",
+    "bookId": "b1048"
+  },
+  {
+    "wishlistItemId": "w1049",
+    "customerId": "c1004",
+    "bookId": "b1049"
+  },
+  {
+    "wishlistItemId": "w1050",
+    "customerId": "c1005",
+    "bookId": "b1050"
+  },
+  {
+    "wishlistItemId": "w1051",
+    "customerId": "c1006",
+    "bookId": "b1051"
+  },
+  {
+    "wishlistItemId": "w1052",
+    "customerId": "c1007",
+    "bookId": "b1052"
+  },
+  {
+    "wishlistItemId": "w1053",
+    "customerId": "c1008",
+    "bookId": "b1053"
+  },
+  {
+    "wishlistItemId": "w1054",
+    "customerId": "c1009",
+    "bookId": "b1054"
+  },
+  {
+    "wishlistItemId": "w1055",
+    "customerId": "c1010",
+    "bookId": "b1055"
+  },
+  {
+    "wishlistItemId": "w1056",
+    "customerId": "c1011",
+    "bookId": "b1056"
+  }
+]

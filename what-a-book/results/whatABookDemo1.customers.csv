@@ -1,0 +1,57 @@
+customerId,firstName,lastName,wishlistItemId,bookId,title,author,genre,isbn13,firstPublishedYear,condition,price
+c1001,Jonathan,Cantu,w1046,b1046,Strangers,Dean Koontz,Science Fiction Thriller,9780425181119,1986,Good,9.25
+c1001,Jonathan,Cantu,w1031,b1031,Forward the Foundation,Isaac Asimov,Science Fiction,9780553565072,1993,Good,9.95
+c1001,Jonathan,Cantu,w1001,b1001,The Hobbit,J.R.R. Tolkien,Fantasy,9780547928227,1937,Very Good,12.95
+c1001,Jonathan,Cantu,w1016,b1016,Running with the Demon,Terry Brooks,Urban Fantasy,9780345422583,1997,Very Good,10.95
+c1002,Jennifer,Snyder,w1047,b1047,Intensity,Dean Koontz,Psychological Thriller,9780553582910,1995,Very Good,9.95
+c1002,Jennifer,Snyder,w1032,b1032,"I, Robot",Isaac Asimov,Science Fiction,9780553382563,1950,Very Good,10.95
+c1002,Jennifer,Snyder,w1002,b1002,The Fellowship of the Ring,J.R.R. Tolkien,Fantasy,9780547928210,1954,Good,10.95
+c1002,Jennifer,Snyder,w1017,b1017,A Knight of the Word,Terry Brooks,Urban Fantasy,9780345424648,1998,Very Good,10.95
+c1003,Dolly,Presley,w1048,b1048,Odd Thomas,Dean Koontz,Supernatural Thriller,9780553384284,2003,Very Good,11.95
+c1003,Dolly,Presley,w1033,b1033,The Caves of Steel,Isaac Asimov,Science Fiction Mystery,9780553293401,1953,Good,9.5
+c1003,Dolly,Presley,w1003,b1003,The Two Towers,J.R.R. Tolkien,Fantasy,9780547928203,1954,Very Good,10.95
+c1003,Dolly,Presley,w1018,b1018,Angel Fire East,Terry Brooks,Urban Fantasy,9780345424662,1999,Good,10.5
+c1004,Howard,Mariner,w1049,b1049,Fear Nothing,Dean Koontz,Science Fiction Thriller,9780553579751,1997,Good,8.95
+c1004,Howard,Mariner,w1034,b1034,The Naked Sun,Isaac Asimov,Science Fiction Mystery,9780553293395,1957,Very Good,9.5
+c1004,Howard,Mariner,w1004,b1004,The Return of the King,J.R.R. Tolkien,Fantasy,9780547928197,1955,Very Good,11.95
+c1004,Howard,Mariner,w1019,b1019,Do Androids Dream of Electric Sheep?,Philip K. Dick,Science Fiction,9780345404473,1968,Very Good,11.95
+c1005,Marge,Meadow,w1035,b1035,Interview with the Vampire,Anne Rice,Gothic Horror,9780345337665,1976,Very Good,9.95
+c1005,Marge,Meadow,w1050,b1050,The Taking,Dean Koontz,Apocalyptic Horror,9780553584509,2004,Very Good,9.5
+c1005,Marge,Meadow,w1005,b1005,The Silmarillion,J.R.R. Tolkien,Fantasy,9780544338012,1977,Good,13.5
+c1005,Marge,Meadow,w1020,b1020,The Man in the High Castle,Philip K. Dick,Alternate History,9780547572482,1962,Very Good,12.95
+c1006,Alice,Wonderland,w1036,b1036,The Vampire Lestat,Anne Rice,Gothic Horror,9780345313867,1985,Good,9.95
+c1006,Alice,Wonderland,w1006,b1006,Unfinished Tales,J.R.R. Tolkien,Fantasy,9780544337992,1980,Very Good,14.95
+c1006,Alice,Wonderland,w1021,b1021,Ubik,Philip K. Dick,Science Fiction,9780547572291,1969,Good,12.5
+c1006,Alice,Wonderland,w1051,b1051,Magic Kingdom for Sale—Sold!,Terry Brooks,Fantasy,9780345338587,1986,Very Good,9.95
+c1007,Frasier,Crane,w1037,b1037,The Queen of the Damned,Anne Rice,Gothic Horror,9780345351524,1988,Very Good,10.5
+c1007,Frasier,Crane,w1007,b1007,The Children of Húrin,J.R.R. Tolkien,Fantasy,9780618894642,2007,Fine,18.95
+c1007,Frasier,Crane,w1022,b1022,A Scanner Darkly,Philip K. Dick,Science Fiction,9780547572178,1977,Very Good,13.95
+c1007,Frasier,Crane,w1052,b1052,The Black Unicorn,Terry Brooks,Fantasy,9780345338594,1987,Good,8.95
+c1008,Niles,Crane,w1038,b1038,The Tale of the Body Thief,Anne Rice,Gothic Horror,9780345384751,1992,Good,9.75
+c1008,Niles,Crane,w1008,b1008,Beren and Lúthien,J.R.R. Tolkien,Fantasy,9781328791825,2017,Fine,21.95
+c1008,Niles,Crane,w1023,b1023,VALIS,Philip K. Dick,Science Fiction,9780547572413,1981,Good,12.95
+c1008,Niles,Crane,w1053,b1053,Wizard at Large,Terry Brooks,Fantasy,9780345367693,1988,Very Good,8.95
+c1009,Luna,Lovegood,w1039,b1039,Memnoch the Devil,Anne Rice,Gothic Horror,9780345409676,1995,Good,9.75
+c1009,Luna,Lovegood,w1024,b1024,"Flow My Tears, the Policeman Said",Philip K. Dick,Science Fiction,9780547572253,1974,Very Good,12.95
+c1009,Luna,Lovegood,w1009,b1009,The Sword of Shannara,Terry Brooks,Fantasy,,1977,Fine,495
+c1009,Luna,Lovegood,w1054,b1054,The Tangle Box,Terry Brooks,Fantasy,9780345388750,1994,Very Good,9.95
+c1010,Isaac,Clarke,w1040,b1040,The Witching Hour,Anne Rice,Gothic Fantasy,9780345384461,1990,Very Good,11.95
+c1010,Isaac,Clarke,w1025,b1025,The Three Stigmata of Palmer Eldritch,Philip K. Dick,Science Fiction,9780547572550,1965,Good,12.5
+c1010,Isaac,Clarke,w1010,b1010,The Elfstones of Shannara,Terry Brooks,Fantasy,9780345285546,1982,Good,8.95
+c1010,Isaac,Clarke,w1055,b1055,Witches' Brew,Terry Brooks,Fantasy,9780345420664,1995,Good,9.95
+c1011,Elena,Rivers,w1041,b1041,"Frankenstein; or, The Modern Prometheus",Mary Shelley,Gothic Science Fiction,9780486282114,1818,Very Good,6.95
+c1011,Elena,Rivers,w1026,b1026,Martian Time-Slip,Philip K. Dick,Science Fiction,9780547572536,1964,Good,11.95
+c1011,Elena,Rivers,w1056,b1056,A Princess of Landover,Terry Brooks,Fantasy,9780345523501,2009,Fine,14.95
+c1011,Elena,Rivers,w1011,b1011,The Wishsong of Shannara,Terry Brooks,Fantasy,9780345356369,1985,Good,8.95
+c1012,Marcus,Vale,w1027,b1027,Foundation,Isaac Asimov,Science Fiction,9780553293357,1951,Very Good,9.95
+c1012,Marcus,Vale,w1042,b1042,The Last Man,Mary Shelley,Apocalyptic Science Fiction,9780199552351,1826,Very Good,12.95
+c1012,Marcus,Vale,w1012,b1012,The Scions of Shannara,Terry Brooks,Fantasy,9780345371431,1990,Very Good,9.5
+c1013,Sophie,Bennett,w1043,b1043,Watchers,Dean Koontz,Science Fiction Thriller,9780425188804,1987,Very Good,9.95
+c1013,Sophie,Bennett,w1028,b1028,Foundation and Empire,Isaac Asimov,Science Fiction,9780553293371,1952,Good,9.5
+c1013,Sophie,Bennett,w1013,b1013,The Druid of Shannara,Terry Brooks,Fantasy,9780345375583,1991,Very Good,9.5
+c1014,Daniel,Hart,w1044,b1044,Phantoms,Dean Koontz,Horror,9780425181102,1983,Good,8.95
+c1014,Daniel,Hart,w1029,b1029,Second Foundation,Isaac Asimov,Science Fiction,9780553293364,1953,Very Good,9.5
+c1014,Daniel,Hart,w1014,b1014,The Elf Queen of Shannara,Terry Brooks,Fantasy,9780345381676,1992,Good,9.25
+c1015,Rebecca,Stone,w1045,b1045,Lightning,Dean Koontz,Science Fiction Thriller,9780425192030,1988,Very Good,9.5
+c1015,Rebecca,Stone,w1030,b1030,Prelude to Foundation,Isaac Asimov,Science Fiction,9780553278392,1988,Very Good,9.95
+c1015,Rebecca,Stone,w1015,b1015,The Talismans of Shannara,Terry Brooks,Fantasy,9780345386749,1993,Very Good,9.75
