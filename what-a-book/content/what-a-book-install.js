@@ -1,13 +1,13 @@
 /**
- * Title: what-a-book-install-v2.js
+ * Title: what-a-book-install.js
  * Authors: Jonathan Cantu and Jennifer Snyder
  * Course: WEB335
  * Description: Creates and seeds the WhatABook MongoDB collections
  *              in the database currently selected in mongosh.
  *
  * Usage:
- *   use("whatABookDemo1")
- *   load("what-a-book-install-v2.js")
+ *   use("whatABook")
+ *   load("what-a-book-install.js")
  */
 
 print("Installing WhatABook into database: " + db.getName());
