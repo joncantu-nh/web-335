@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WhatABook</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div>
+      <p class="eyebrow">Used Science Fiction &amp; Fantasy Books</p>
+      <h1>WhatABook</h1>
+    </div>
+    <button id="helpButton" class="secondary">Help Center</button>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>Browse the Catalog</h2>
+      <div class="control-grid">
+        <label>Search by title<input id="titleSearch" type="search" placeholder="<Book Title>"></label>
+        <label>Author<select id="authorFilter"><option value="">All authors</option></select></label>
+        <label>Genre<select id="genreFilter"><option value="">All genres</option></select></label>
+      </div>
+      <div class="button-row">
+        <button id="searchButton">Search Books</button>
+        <button id="showAllButton" class="secondary">View All Books</button>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Customer Wishlist</h2>
+      <div class="wishlist-controls">
+        <label>Customer<select id="customerSelect"><option value="">Select a customer</option></select></label>
+        <button id="viewWishlistButton">View Wishlist</button>
+      </div>
+      <div id="wishlistSummary" class="status" aria-live="polite"></div>
+      <div id="wishlistResults" class="book-grid"></div>
+    </section>
+
+    <section class="panel">
+      <div class="section-heading"><h2>Book Results</h2><span id="resultCount" class="count"></span></div>
+      <div id="statusMessage" class="status" aria-live="polite"></div>
+      <div id="bookResults" class="book-grid"></div>
+    </section>
+  </main>
+
+  <dialog id="helpDialog">
+    <h2>Help Center</h2>
+    <p><strong>View all books:</strong> Select “View All Books.”</p>
+    <p><strong>Search:</strong> Enter a title or choose an author or genre.</p>
+    <p><strong>View a wishlist:</strong> Select a customer and choose “View Wishlist.”</p>
+    <p><strong>Add a book:</strong> Select a customer and use “Add to Wishlist.”</p>
+    <form method="dialog"><button>Close</button></form>
+  </dialog>
+
+  <script src="/app.js" defer></script>
+</body>
+</html>

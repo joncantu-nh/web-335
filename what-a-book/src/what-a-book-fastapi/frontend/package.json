@@ -1,0 +1,13 @@
+{
+  "name": "what-a-book-ui",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Node/Express UI for the WhatABook FastAPI service",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
