@@ -1,0 +1,702 @@
+(.venv) Jonathans-MacBook-Pro-M5:results jonathan$ mongosh "mongodb+srv://bellevueuniversity.uzidtds.mongodb.net/" --apiVersion 1 --username web335_user
+Enter password: ******
+Current Mongosh Log ID:	6a6f824f29b9b86ab0920699
+Connecting to:		mongodb+srv://<credentials>@bellevueuniversity.uzidtds.mongodb.net/?appName=mongosh+2.8.3
+Using MongoDB:		8.0.29 (API Version 1)
+Using Mongosh:		2.8.3
+mongosh 2.9.2 is available for download: https://www.mongodb.com/try/download/shell
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+Atlas atlas-jfajhz-shard-0 [primary] test> use("what-a-book')
+Uncaught:
+SyntaxError: Unterminated string constant. (1:4)
+
+> 1 | use("what-a-book')
+    |     ^
+  2 |
+
+Atlas atlas-jfajhz-shard-0 [primary] test> use("what-a-book")
+switched to db what-a-book
+Atlas atlas-jfajhz-shard-0 [primary] what-a-book> load("Assignment8.2-WhatABook-Queries.js")
+
+==================================================
+1. LIST OF ALL BOOKS
+==================================================
+{
+  bookId: 'b1017',
+  title: 'A Knight of the Word',
+  author: 'Terry Brooks',
+  genre: 'Urban Fantasy',
+  price: 10.95
+}
+{
+  bookId: 'b1056',
+  title: 'A Princess of Landover',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 14.95
+}
+{
+  bookId: 'b1022',
+  title: 'A Scanner Darkly',
+  author: 'Philip K. Dick',
+  genre: 'Science Fiction',
+  price: 13.95
+}
+{
+  bookId: 'b1018',
+  title: 'Angel Fire East',
+  author: 'Terry Brooks',
+  genre: 'Urban Fantasy',
+  price: 10.5
+}
+{
+  bookId: 'b1008',
+  title: 'Beren and Lúthien',
+  author: 'J.R.R. Tolkien',
+  genre: 'Fantasy',
+  price: 21.95
+}
+{
+  bookId: 'b1019',
+  title: 'Do Androids Dream of Electric Sheep?',
+  author: 'Philip K. Dick',
+  genre: 'Science Fiction',
+  price: 11.95
+}
+{
+  bookId: 'b1049',
+  title: 'Fear Nothing',
+  author: 'Dean Koontz',
+  genre: 'Science Fiction Thriller',
+  price: 8.95
+}
+{
+  bookId: 'b1024',
+  title: 'Flow My Tears, the Policeman Said',
+  author: 'Philip K. Dick',
+  genre: 'Science Fiction',
+  price: 12.95
+}
+{
+  bookId: 'b1031',
+  title: 'Forward the Foundation',
+  author: 'Isaac Asimov',
+  genre: 'Science Fiction',
+  price: 9.95
+}
+{
+  bookId: 'b1027',
+  title: 'Foundation',
+  author: 'Isaac Asimov',
+  genre: 'Science Fiction',
+  price: 9.95
+}
+{
+  bookId: 'b1028',
+  title: 'Foundation and Empire',
+  author: 'Isaac Asimov',
+  genre: 'Science Fiction',
+  price: 9.5
+}
+{
+  bookId: 'b1041',
+  title: 'Frankenstein; or, The Modern Prometheus',
+  author: 'Mary Shelley',
+  genre: 'Gothic Science Fiction',
+  price: 6.95
+}
+{
+  bookId: 'b1032',
+  title: 'I, Robot',
+  author: 'Isaac Asimov',
+  genre: 'Science Fiction',
+  price: 10.95
+}
+{
+  bookId: 'b1047',
+  title: 'Intensity',
+  author: 'Dean Koontz',
+  genre: 'Psychological Thriller',
+  price: 9.95
+}
+{
+  bookId: 'b1035',
+  title: 'Interview with the Vampire',
+  author: 'Anne Rice',
+  genre: 'Gothic Horror',
+  price: 9.95
+}
+{
+  bookId: 'b1045',
+  title: 'Lightning',
+  author: 'Dean Koontz',
+  genre: 'Science Fiction Thriller',
+  price: 9.5
+}
+{
+  bookId: 'b1051',
+  title: 'Magic Kingdom for Sale—Sold!',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 9.95
+}
+{
+  bookId: 'b1026',
+  title: 'Martian Time-Slip',
+  author: 'Philip K. Dick',
+  genre: 'Science Fiction',
+  price: 11.95
+}
+{
+  bookId: 'b1039',
+  title: 'Memnoch the Devil',
+  author: 'Anne Rice',
+  genre: 'Gothic Horror',
+  price: 9.75
+}
+{
+  bookId: 'b1048',
+  title: 'Odd Thomas',
+  author: 'Dean Koontz',
+  genre: 'Supernatural Thriller',
+  price: 11.95
+}
+{
+  bookId: 'b1044',
+  title: 'Phantoms',
+  author: 'Dean Koontz',
+  genre: 'Horror',
+  price: 8.95
+}
+{
+  bookId: 'b1030',
+  title: 'Prelude to Foundation',
+  author: 'Isaac Asimov',
+  genre: 'Science Fiction',
+  price: 9.95
+}
+{
+  bookId: 'b1016',
+  title: 'Running with the Demon',
+  author: 'Terry Brooks',
+  genre: 'Urban Fantasy',
+  price: 10.95
+}
+{
+  bookId: 'b1029',
+  title: 'Second Foundation',
+  author: 'Isaac Asimov',
+  genre: 'Science Fiction',
+  price: 9.5
+}
+{
+  bookId: 'b1046',
+  title: 'Strangers',
+  author: 'Dean Koontz',
+  genre: 'Science Fiction Thriller',
+  price: 9.25
+}
+{
+  bookId: 'b1052',
+  title: 'The Black Unicorn',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 8.95
+}
+{
+  bookId: 'b1033',
+  title: 'The Caves of Steel',
+  author: 'Isaac Asimov',
+  genre: 'Science Fiction Mystery',
+  price: 9.5
+}
+{
+  bookId: 'b1007',
+  title: 'The Children of Húrin',
+  author: 'J.R.R. Tolkien',
+  genre: 'Fantasy',
+  price: 18.95
+}
+{
+  bookId: 'b1013',
+  title: 'The Druid of Shannara',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 9.5
+}
+{
+  bookId: 'b1014',
+  title: 'The Elf Queen of Shannara',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 9.25
+}
+{
+  bookId: 'b1010',
+  title: 'The Elfstones of Shannara',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 8.95
+}
+{
+  bookId: 'b1002',
+  title: 'The Fellowship of the Ring',
+  author: 'J.R.R. Tolkien',
+  genre: 'Fantasy',
+  price: 10.95
+}
+{
+  bookId: 'b1001',
+  title: 'The Hobbit',
+  author: 'J.R.R. Tolkien',
+  genre: 'Fantasy',
+  price: 12.95
+}
+{
+  bookId: 'b1042',
+  title: 'The Last Man',
+  author: 'Mary Shelley',
+  genre: 'Apocalyptic Science Fiction',
+  price: 12.95
+}
+{
+  bookId: 'b1020',
+  title: 'The Man in the High Castle',
+  author: 'Philip K. Dick',
+  genre: 'Alternate History',
+  price: 12.95
+}
+{
+  bookId: 'b1034',
+  title: 'The Naked Sun',
+  author: 'Isaac Asimov',
+  genre: 'Science Fiction Mystery',
+  price: 9.5
+}
+{
+  bookId: 'b1037',
+  title: 'The Queen of the Damned',
+  author: 'Anne Rice',
+  genre: 'Gothic Horror',
+  price: 10.5
+}
+{
+  bookId: 'b1004',
+  title: 'The Return of the King',
+  author: 'J.R.R. Tolkien',
+  genre: 'Fantasy',
+  price: 11.95
+}
+{
+  bookId: 'b1012',
+  title: 'The Scions of Shannara',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 9.5
+}
+{
+  bookId: 'b1005',
+  title: 'The Silmarillion',
+  author: 'J.R.R. Tolkien',
+  genre: 'Fantasy',
+  price: 13.5
+}
+{
+  bookId: 'b1009',
+  title: 'The Sword of Shannara',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 495
+}
+{
+  bookId: 'b1050',
+  title: 'The Taking',
+  author: 'Dean Koontz',
+  genre: 'Apocalyptic Horror',
+  price: 9.5
+}
+{
+  bookId: 'b1038',
+  title: 'The Tale of the Body Thief',
+  author: 'Anne Rice',
+  genre: 'Gothic Horror',
+  price: 9.75
+}
+{
+  bookId: 'b1015',
+  title: 'The Talismans of Shannara',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 9.75
+}
+{
+  bookId: 'b1054',
+  title: 'The Tangle Box',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 9.95
+}
+{
+  bookId: 'b1025',
+  title: 'The Three Stigmata of Palmer Eldritch',
+  author: 'Philip K. Dick',
+  genre: 'Science Fiction',
+  price: 12.5
+}
+{
+  bookId: 'b1003',
+  title: 'The Two Towers',
+  author: 'J.R.R. Tolkien',
+  genre: 'Fantasy',
+  price: 10.95
+}
+{
+  bookId: 'b1036',
+  title: 'The Vampire Lestat',
+  author: 'Anne Rice',
+  genre: 'Gothic Horror',
+  price: 9.95
+}
+{
+  bookId: 'b1011',
+  title: 'The Wishsong of Shannara',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 8.95
+}
+{
+  bookId: 'b1040',
+  title: 'The Witching Hour',
+  author: 'Anne Rice',
+  genre: 'Gothic Fantasy',
+  price: 11.95
+}
+{
+  bookId: 'b1021',
+  title: 'Ubik',
+  author: 'Philip K. Dick',
+  genre: 'Science Fiction',
+  price: 12.5
+}
+{
+  bookId: 'b1006',
+  title: 'Unfinished Tales',
+  author: 'J.R.R. Tolkien',
+  genre: 'Fantasy',
+  price: 14.95
+}
+{
+  bookId: 'b1023',
+  title: 'VALIS',
+  author: 'Philip K. Dick',
+  genre: 'Science Fiction',
+  price: 12.95
+}
+{
+  bookId: 'b1043',
+  title: 'Watchers',
+  author: 'Dean Koontz',
+  genre: 'Science Fiction Thriller',
+  price: 9.95
+}
+{
+  bookId: 'b1055',
+  title: "Witches' Brew",
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 9.95
+}
+{
+  bookId: 'b1053',
+  title: 'Wizard at Large',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 8.95
+}
+
+==================================================
+2. LIST OF BOOKS BY GENRE
+==================================================
+{
+  bookId: 'b1008',
+  title: 'Beren and Lúthien',
+  author: 'J.R.R. Tolkien',
+  genre: 'Fantasy',
+  price: 21.95
+}
+{
+  bookId: 'b1007',
+  title: 'The Children of Húrin',
+  author: 'J.R.R. Tolkien',
+  genre: 'Fantasy',
+  price: 18.95
+}
+{
+  bookId: 'b1002',
+  title: 'The Fellowship of the Ring',
+  author: 'J.R.R. Tolkien',
+  genre: 'Fantasy',
+  price: 10.95
+}
+{
+  bookId: 'b1001',
+  title: 'The Hobbit',
+  author: 'J.R.R. Tolkien',
+  genre: 'Fantasy',
+  price: 12.95
+}
+{
+  bookId: 'b1004',
+  title: 'The Return of the King',
+  author: 'J.R.R. Tolkien',
+  genre: 'Fantasy',
+  price: 11.95
+}
+{
+  bookId: 'b1005',
+  title: 'The Silmarillion',
+  author: 'J.R.R. Tolkien',
+  genre: 'Fantasy',
+  price: 13.5
+}
+{
+  bookId: 'b1003',
+  title: 'The Two Towers',
+  author: 'J.R.R. Tolkien',
+  genre: 'Fantasy',
+  price: 10.95
+}
+{
+  bookId: 'b1006',
+  title: 'Unfinished Tales',
+  author: 'J.R.R. Tolkien',
+  genre: 'Fantasy',
+  price: 14.95
+}
+{
+  bookId: 'b1056',
+  title: 'A Princess of Landover',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 14.95
+}
+{
+  bookId: 'b1051',
+  title: 'Magic Kingdom for Sale—Sold!',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 9.95
+}
+{
+  bookId: 'b1052',
+  title: 'The Black Unicorn',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 8.95
+}
+{
+  bookId: 'b1013',
+  title: 'The Druid of Shannara',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 9.5
+}
+{
+  bookId: 'b1014',
+  title: 'The Elf Queen of Shannara',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 9.25
+}
+{
+  bookId: 'b1010',
+  title: 'The Elfstones of Shannara',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 8.95
+}
+{
+  bookId: 'b1012',
+  title: 'The Scions of Shannara',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 9.5
+}
+{
+  bookId: 'b1009',
+  title: 'The Sword of Shannara',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 495
+}
+{
+  bookId: 'b1015',
+  title: 'The Talismans of Shannara',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 9.75
+}
+{
+  bookId: 'b1054',
+  title: 'The Tangle Box',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 9.95
+}
+{
+  bookId: 'b1011',
+  title: 'The Wishsong of Shannara',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 8.95
+}
+{
+  bookId: 'b1055',
+  title: "Witches' Brew",
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 9.95
+}
+{
+  bookId: 'b1053',
+  title: 'Wizard at Large',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 8.95
+}
+
+==================================================
+3. LIST OF BOOKS BY AUTHOR
+==================================================
+{
+  bookId: 'b1017',
+  title: 'A Knight of the Word',
+  author: 'Terry Brooks',
+  genre: 'Urban Fantasy',
+  price: 10.95
+}
+{
+  bookId: 'b1056',
+  title: 'A Princess of Landover',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 14.95
+}
+{
+  bookId: 'b1018',
+  title: 'Angel Fire East',
+  author: 'Terry Brooks',
+  genre: 'Urban Fantasy',
+  price: 10.5
+}
+{
+  bookId: 'b1051',
+  title: 'Magic Kingdom for Sale—Sold!',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 9.95
+}
+{
+  bookId: 'b1016',
+  title: 'Running with the Demon',
+  author: 'Terry Brooks',
+  genre: 'Urban Fantasy',
+  price: 10.95
+}
+{
+  bookId: 'b1052',
+  title: 'The Black Unicorn',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 8.95
+}
+{
+  bookId: 'b1013',
+  title: 'The Druid of Shannara',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 9.5
+}
+{
+  bookId: 'b1014',
+  title: 'The Elf Queen of Shannara',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 9.25
+}
+{
+  bookId: 'b1010',
+  title: 'The Elfstones of Shannara',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 8.95
+}
+{
+  bookId: 'b1012',
+  title: 'The Scions of Shannara',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 9.5
+}
+{
+  bookId: 'b1009',
+  title: 'The Sword of Shannara',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 495
+}
+{
+  bookId: 'b1015',
+  title: 'The Talismans of Shannara',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 9.75
+}
+{
+  bookId: 'b1054',
+  title: 'The Tangle Box',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 9.95
+}
+{
+  bookId: 'b1011',
+  title: 'The Wishsong of Shannara',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 8.95
+}
+{
+  bookId: 'b1055',
+  title: "Witches' Brew",
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 9.95
+}
+{
+  bookId: 'b1053',
+  title: 'Wizard at Large',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  price: 8.95
+}
+
+==================================================
+4. DISPLAY BOOK BY BOOK ID
+==================================================
+{
+  bookId: 'b1009',
+  title: 'The Sword of Shannara',
+  author: 'Terry Brooks',
+  genre: 'Fantasy',
+  isbn13: null,
+  firstPublishedYear: 1977,
+  condition: 'Fine',
+  price: 495,
+  signed: true,
+  firstEdition: false,
+  notes: "Leather-bound with gold-gilded page edges and a Certificate of Authenticity signed by Terry Brooks and dated May 8, 1999. Collector's edition may not carry a standard ISBN."
+}
+true
